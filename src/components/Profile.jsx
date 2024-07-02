@@ -12,7 +12,7 @@ import Button from './Button';
 
 
 function Profile() {
-  const[image,setImage]=useState('./img2.jpg');
+  const[image,setImage]=useState('./img2.png');
 
   useEffect(() => {
     const storedImage = localStorage.getItem('profileImage');
